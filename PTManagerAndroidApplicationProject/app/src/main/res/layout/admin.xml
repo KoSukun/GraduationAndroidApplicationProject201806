@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background2"
+        tools:context="com.graduationproject.ptmanager.MainActivity">
+
+        <Button
+            android:id="@+id/priceinsertbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/saleinsertbtn"
+            android:layout_alignStart="@+id/saleinsertbtn"
+            android:layout_below="@+id/Textadmin"
+            android:layout_marginTop="117dp"
+            android:background="#8f8f8f"
+            android:text="요금 체계 관리하기"
+            tools:layout_editor_absoluteX="84dp"
+            tools:layout_editor_absoluteY="140dp" />
+
+        <TextView
+            android:id="@+id/Textadmin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="13dp"
+            android:ems="10"
+            android:text="관리자 페이지"
+            tools:layout_editor_absoluteX="73dp"
+            tools:layout_editor_absoluteY="50dp" />
+
+    <Button
+        android:id="@+id/saleinsertbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/priceinsertbtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="#8f8f8f"
+        android:text="할인 목록 관리하기"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="199dp" />
+
+    <Button
+        android:id="@+id/carinshowbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/saleinsertbtn"
+        android:layout_alignStart="@+id/saleinsertbtn"
+        android:layout_below="@+id/saleinsertbtn"
+        android:layout_marginTop="27dp"
+        android:background="#8f8f8f"
+        android:text="주차 차량 조회하기"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="258dp" />
+    </RelativeLayout>

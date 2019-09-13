@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="styled_text">ParkingTime</string>
+    <string name="styled_text2">Manager</string>
+    <string name="app_name">PTManager</string>
+    <string name="strBtn1">주차시간/요금표 확인 및 정산</string>
+    <string name="strBtn2">주차요금 할인 혜택 목록보기</string>
+    <string name="strBtn3">나의 주차요금 확인/정산하기</string>
+    <string name="strBtn4">할인 혜택적용/요금 할인받기</string>
+    <string name="timerBtn1">타이머</string>
+    <string name="timerBtn2">요금표</string>
+    <string name="timerBtn3">정  산</string>
+    <string name="strNam1">차량번호</string>
+</resources>

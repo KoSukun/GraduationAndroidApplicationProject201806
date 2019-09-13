@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background6"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="할인 정보 등록" />
+
+    <EditText
+        android:id="@+id/saleName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView8"
+        android:layout_marginTop="11dp"
+        android:ems="10"
+        android:hint="할인 이름"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="27dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/saleName"
+        android:layout_marginTop="31dp"
+        android:text="할인 종류"
+        android:textSize="25sp" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView10"
+        android:orientation="horizontal"
+        android:id="@+id/radioGroup">
+
+
+        <RadioButton
+            android:id="@+id/saleTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="시간 차감" />
+
+        <RadioButton
+            android:id="@+id/saleCharge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="요금 할인" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/radioGroup"
+        android:layout_marginTop="29dp"
+        android:layout_weight="1"
+        android:text="할인 내용"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/saleDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView24"
+        android:ems="10"
+        android:hint="할인 시간(분)/금액(원) "
+        android:inputType="number"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="27dp" />
+
+    <Button
+        android:id="@+id/btnConf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/radioGroup"
+        android:layout_alignRight="@+id/radioGroup"
+        android:layout_below="@+id/saleDetail"
+        android:background="#8f8f8f"
+        android:layout_marginTop="83dp"
+        android:text="등 록" />
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnConf"
+        android:layout_alignBottom="@+id/btnConf"
+        android:layout_toEndOf="@+id/saleDetail"
+        android:layout_toRightOf="@+id/saleDetail"
+        android:background="#8f8f8f"
+        android:text="초기화" />
+
+</RelativeLayout>
+

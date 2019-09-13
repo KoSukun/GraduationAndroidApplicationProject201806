@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background7"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="86dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="12dp"
+        android:text="차량 번호"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="2dp" />
+
+    <TextView
+        android:id="@+id/txtCarNo"
+        android:layout_width="138dp"
+        android:layout_height="40dp"
+        android:layout_alignBaseline="@+id/textView9"
+        android:layout_alignBottom="@+id/textView9"
+
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp"
+        android:layout_toEndOf="@+id/textView9"
+        android:layout_toRightOf="@+id/textView9"
+        android:hint="차량 번호"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="2dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="86dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/textView9"
+        android:layout_alignStart="@+id/textView9"
+        android:layout_below="@+id/textView9"
+        android:layout_marginTop="12dp"
+        android:text="입차 시간"
+        android:textSize="20sp"
+
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="2dp" />
+
+    <TextView
+        android:id="@+id/txtCarIn"
+        android:layout_width="138dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/txtCarNo"
+        android:layout_alignStart="@+id/txtCarNo"
+        android:layout_alignTop="@+id/textView5"
+        android:hint="입차 시간"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="2dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="86dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_below="@+id/textView5"
+        android:layout_marginTop="15dp"
+        android:text="주차 시간"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="2dp" />
+
+    <TextView
+        android:id="@+id/txtPark"
+        android:layout_width="138dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/txtCarIn"
+        android:layout_alignStart="@+id/txtCarIn"
+        android:layout_alignTop="@+id/textView11"
+        android:hint="주차 시간"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="2dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="86dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/textView11"
+        android:layout_alignStart="@+id/textView11"
+        android:layout_below="@+id/textView11"
+        android:layout_marginTop="13dp"
+        android:text="요  금"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="2dp" />
+
+    <TextView
+        android:id="@+id/txtCharge"
+        android:layout_width="138dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/txtPark"
+        android:layout_alignStart="@+id/txtPark"
+        android:layout_alignTop="@+id/textView13"
+        android:hint="요  금"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="2dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="86dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/textView13"
+        android:layout_alignStart="@+id/textView13"
+        android:layout_below="@+id/textView13"
+        android:layout_marginTop="36dp"
+        android:text="할인 금액"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="2dp" />
+
+    <TextView
+        android:id="@+id/txtSale"
+        android:layout_width="138dp"
+        android:layout_height="40dp"
+        android:layout_alignBaseline="@+id/textView15"
+        android:layout_alignBottom="@+id/textView15"
+        android:layout_alignLeft="@+id/txtCharge"
+        android:layout_alignStart="@+id/txtCharge"
+        android:hint="0원"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="2dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="86dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/textView15"
+        android:layout_alignStart="@+id/textView15"
+        android:layout_below="@+id/textView15"
+        android:layout_marginTop="47dp"
+        android:text="총 금액"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="2dp" />
+
+    <TextView
+        android:id="@+id/txtSum"
+        android:layout_width="138dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/txtSale"
+        android:layout_alignStart="@+id/txtSale"
+        android:layout_alignTop="@+id/textView17"
+        android:hint="총 금액"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="2dp" />
+
+    <Button
+        android:id="@+id/btnCharge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="47dp"
+        android:background="#8f8f8f"
+        android:text="결  제" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView15"
+        android:layout_alignStart="@+id/textView15"
+        android:layout_below="@+id/textView15"
+        android:layout_marginTop="13dp"
+        android:text="-------------------------------------------------------------------------------" />
+
+    <Button
+        android:id="@+id/btnDetail"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView7"
+        android:layout_alignTop="@+id/txtSale"
+        android:layout_toEndOf="@+id/txtSale"
+        android:layout_toRightOf="@+id/txtSale"
+        android:background="#8f8f8f"
+        android:text="자세히"
+        android:textSize="10sp" />
+
+</RelativeLayout>

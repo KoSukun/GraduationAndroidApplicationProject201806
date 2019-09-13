@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "967841108603",
+    "firebase_url": "https://parkingtime-manager.firebaseio.com",
+    "project_id": "parkingtime-manager",
+    "storage_bucket": "parkingtime-manager.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:967841108603:android:fd108e9d730650eb",
+        "android_client_info": {
+          "package_name": "com.graduationproject.ptmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "967841108603-kj2rdeulfn39dmfddn62imuup2lpsed3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.graduationproject.ptmanager",
+            "certificate_hash": "c37db54e7fcf5dfcebed5b8d489bc695454f5db9"
+          }
+        },
+        {
+          "client_id": "967841108603-e2hufv1tu5ebi7tbkg3sh6f51lt2ae2g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDE4THzOlUoSJM6C9uwaxovJU2YW9Oe6aI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "967841108603-e2hufv1tu5ebi7tbkg3sh6f51lt2ae2g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
